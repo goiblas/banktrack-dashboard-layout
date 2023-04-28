@@ -15,7 +15,7 @@ import {
   } from "@dnd-kit/sortable"
   import { motion } from "framer-motion"
   import { useState } from "react"
-  import { Masonry } from "./components/Masonry"
+  import { Masonry } from "./Components/Masonry"
   import { range } from "./utils/range"
   
   const initialItems = range(15).map((id) => ({
